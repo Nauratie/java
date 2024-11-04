@@ -29,9 +29,9 @@
     const list = document.createElement('ul');
 
     for (const vegetable of myArray) {
-      document.createElement('li');
-      vegetable.textContent=`${vegetable}`;
-      list.appendChild(vegetable);
+      const listItem = document.createElement('li');
+      listItem.textContent=`${vegetable}`;
+      list.appendChild(listItem);
     }
     
     // Don't edit the code below here!
