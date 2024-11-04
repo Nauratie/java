@@ -30,9 +30,10 @@
 
     for (const vegetable of myArray) {
       document.createElement('li');
+      vegetable.textContent=`${vegetable}`;
+      list.appendChild(vegetable);
     }
     
-    list.appendChild(vegetable);
     // Don't edit the code below here!
 
     const section = document.querySelector('section');
