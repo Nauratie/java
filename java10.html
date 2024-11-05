@@ -42,8 +42,8 @@
    let i = 0;
 
     while (i < phonebook.length) {
-      if (phonebook[i].name===name) {
-        let finding = phonebook[i];
+      if (phonebook[i].name === name) {
+        let finding = `Name: ${phonebook[i].name}, Nummer: ${phonebook[i].number}`;
         para.textContent = finding;
         break;
       }
